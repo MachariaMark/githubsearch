@@ -11,7 +11,7 @@ import { ProfileComponent } from './components/profile/profile.component';
 import { HighlightDirective } from './directives/highlight.directive';
 import { DateTrackPipe } from './pipes/date-track.pipe';
 import { FormsModule } from '@angular/forms';
-import { FooterComponent } from './footer/footer.component';
+import { FooterComponent } from './components/footer/footer.component';
 
 @NgModule({
   declarations: [
