@@ -9,6 +9,7 @@ import { NotFoundComponent } from './not-found/not-found.component';
 import { AboutComponent } from './about/about.component';
 import { ProfileComponent } from './profile/profile.component';
 import { SearchFormComponent } from './search-form/search-form.component';
+import { HighlightDirective } from './highlight.directive';
 
 @NgModule({
   declarations: [
@@ -18,7 +19,8 @@ import { SearchFormComponent } from './search-form/search-form.component';
     NotFoundComponent,
     AboutComponent,
     ProfileComponent,
-    SearchFormComponent
+    SearchFormComponent,
+    HighlightDirective
   ],
   imports: [
     BrowserModule,
