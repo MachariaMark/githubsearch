@@ -1,27 +1,55 @@
-# Githubsearch
+## GITHUB SEARCH  <div dir="rtl">27.08.2021</div>
+#### <div dir="rtl">By **1offmark**</div>
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 11.2.14.
+## DESCRIPTION
+This is an application where by the user may enter a GitHub username into a form, submit it, and see names and descriptions of that person's public repositories, as well as looking  for repositories
 
-## Development server
+This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 11.2.14
+## DEPLOYED LIVE SITE 
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+## FEATURES
+As a user can ;
+* Search for Github users.
+* Search for Repositories.
+* 
+## SETUP/INSTALLATION REQUIREMENTS
+In oder to utilize a feature listed above include the appropriate dependency (or dependencies) listed below in your app/build.gradle file.
 
-## Code scaffolding
-
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
-
-## Build
-
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `--prod` flag for a production build.
-
-## Running unit tests
-
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
-
-## Running end-to-end tests
-
-Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+###### 
+    "dependencies": {
+        "@angular/animations": "~8.2.5",
+        "@angular/cdk": "~8.2.1",
+        "@angular/common": "~8.2.5",
+        "@angular/compiler": "~8.2.5",
+        "@angular/core": "~8.2.5",
+        "@angular/forms": "~8.2.5",
+        "@angular/material": "^8.2.1",
+        "@angular/platform-browser": "~8.2.5",
+        "@angular/platform-browser-dynamic": "~8.2.5",
+        "@angular/router": "~8.2.5",
+        "hammerjs": "^2.0.8",
+        "materialize-css": "^1.0.0-rc.2",
+        "rxjs": "~6.4.0",
+        "tslib": "^1.10.0",
+        "zone.js": "~0.9.1"
+    }
+## Setup
+* Clone this repo to your desktop
+* run this in your terminal "git remove set-url" if you wish to have it into your repository
+* create a directory for this project
+* run "atom ." in you terminal
+## Known Bugs
+No known bugs.
+## TECHNOLOGIES USED
+* Materialize 
+* awesome & google fonts
+* Used HTML to create forms. 
+* Used bootstrap and a custom css stylesheet for styling. 
+* Angular framework and Angular CLI that is based on MVC architecture
+## Support and contact details
+For feedback contact me through;
+* techassistant@gmail.com
+* +254798015111
+### License
+This project is licensed under the terms of the MIT license.
+Copyright (c) 2021 **MARK MUCHIRI MACHARIA**
