@@ -8,9 +8,10 @@ import { HomepageComponent } from './components/homepage/homepage.component';
 import { NotFoundComponent } from './components/not-found/not-found.component';
 import { AboutComponent } from './components/about/about.component';
 import { ProfileComponent } from './components/profile/profile.component';
-import { SearchFormComponent } from './components/search-form/search-form.component';
 import { HighlightDirective } from './directives/highlight.directive';
 import { DateTrackPipe } from './pipes/date-track.pipe';
+import { FormsModule } from '@angular/forms';
+import { FooterComponent } from './footer/footer.component';
 
 @NgModule({
   declarations: [
@@ -20,13 +21,14 @@ import { DateTrackPipe } from './pipes/date-track.pipe';
     NotFoundComponent,
     AboutComponent,
     ProfileComponent,
-    SearchFormComponent,
     HighlightDirective,
-    DateTrackPipe
+    DateTrackPipe,
+    FooterComponent
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
+    FormsModule,
   ],
   providers: [],
   bootstrap: [AppComponent]
