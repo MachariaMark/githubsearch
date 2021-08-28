@@ -6,7 +6,6 @@ import { AppComponent } from './app.component';
 import { NavbarComponent } from './components/navbar/navbar.component';
 import { HomepageComponent } from './components/homepage/homepage.component';
 import { NotFoundComponent } from './components/not-found/not-found.component';
-import { AboutComponent } from './components/about/about.component';
 import { ProfileComponent } from './components/profile/profile.component';
 import { HighlightDirective } from './directives/highlight.directive';
 import { DateTrackPipe } from './pipes/date-track.pipe';
@@ -19,7 +18,6 @@ import { FooterComponent } from './components/footer/footer.component';
     NavbarComponent,
     HomepageComponent,
     NotFoundComponent,
-    AboutComponent,
     ProfileComponent,
     HighlightDirective,
     DateTrackPipe,
