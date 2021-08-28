@@ -1,26 +1,18 @@
-import { Directive, ElementRef, HostListener, Input } from '@angular/core';
+import { Directive, ElementRef, HostListener } from '@angular/core';
 
 @Directive({
-  selector: '[appHighlight]'
+  selector: '[appCardHover]'
 })
-export class HighlightDirective {
+export class CardHoverDirective {
+
   constructor(private el: ElementRef) { }
 
-  @Input()
-  defaultColor!: string;
-
-  @Input('appHighlight')
-  highlightColor!: string;
-
-  @HostListener('mouseenter') onMouseEnter() {
-    this.highlight(this.highlightColor || this.defaultColor || 'red');
+  @HostListener('mouseover') onOver() {
+    this.el.nativeElement.style.backgroundColor = 'rgb(248, 211, 0)';
   }
 
-  @HostListener('mouseleave') onMouseLeave() {
-    this.highlight;
+  @HostListener('mouseout') onOut() {
+    this.el.nativeElement.style.backgroundColor = '#fff';
   }
 
-  private highlight(color: string) {
-    this.el.nativeElement.style.backgroundColor = color;
-  }
 }
