@@ -8,7 +8,7 @@ export class HighlightDirective {
   constructor(private el: ElementRef) { }
 
   @HostListener('mouseover') onOver() {
-    this.el.nativeElement.style.backgroundColor = 'rgb(248, 211, 0)';
+    this.el.nativeElement.style.backgroundColor = 'red';
   }
 
   @HostListener('mouseout') onOut() {

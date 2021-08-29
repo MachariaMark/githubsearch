@@ -73,7 +73,7 @@
 
         <div class="tab-pane fade show active" id="repos" role="tabpanel" aria-labelledby="nav-home-tab">
           <div *ngFor="let repo of repos; index as i">
-            <div appCardHover class="card bottom-space">
+            <div appHighlight class="card bottom-space">
               <div class="card-body">
                 <h3>{{ repo.name }} <i *ngIf="repo.fork" class="fas fa-code-branch fa-xs"></i> <span
                     style="font-size:12px; float:right; color:rgb(248, 211, 0); background-color: #393c40"
@@ -93,7 +93,7 @@
 
         <div class="tab-pane fade" id="followers" role="tabpanel" aria-labelledby="nav-profile-tab">
           <div *ngFor="let follower of followers">
-            <div style="margin-bottom: 10px;" class="media" appCardHover>
+            <div style="margin-bottom: 10px;" class="media" appHighlight>
               <img class="profile-thumb" style="height:60px; width:60px;" src="{{ follower.avatar_url }}" class="mr-3"
                 alt="avatar">
               <div class="media-body">
@@ -107,7 +107,7 @@
 
         <div class="tab-pane fade" id="following" role="tabpanel" aria-labelledby="nav-contact-tab">
           <div *ngFor="let follower of following">
-            <div style="margin-bottom: 10px;" class="media" appCardHover>
+            <div style="margin-bottom: 10px;" class="media" appHighlight>
               <img class="profile-thumb" style="height:60px; width:60px;" src="{{ follower.avatar_url }}" class="mr-3"
                 alt="avatar">
               <div class="media-body">
