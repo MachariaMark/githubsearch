@@ -9,9 +9,9 @@ export class ProfileService {
   // to be moved to environment
   // to be moved to environment
   private username!: string;
-  private token = environment.token;
-  private clientId = environment.clientId;
-  private clientSecret = environment.clientSecret;
+  // private token = environment.token;
+  private clientId = environment.accessToken;
+  private clientSecret = environment.accessToken;
 
   constructor(private http: HttpClient) {}
 
