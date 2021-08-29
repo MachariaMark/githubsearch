@@ -12,7 +12,7 @@ export class ProfileComponent implements OnInit {
   repos: any;
   followers: any;
   following: any;
-  username: string;
+  username!: string;
   notFound = false;
 
   constructor(private service: ProfileService) { }

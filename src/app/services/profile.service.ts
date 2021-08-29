@@ -7,10 +7,11 @@ import { Injectable } from '@angular/core';
 })
 export class ProfileService {
   // to be moved to environment
-  private username: string;
-  private token = environment.token;
-  private clientId = environment.clientId;
-  private clientSecret = environment.clientSecret;
+  // to be moved to environment
+  private username!: string;
+  // private token = environment.token;
+  private clientId = environment.accessToken;
+  private clientSecret = environment.accessToken;
 
   constructor(private http: HttpClient) {}
 

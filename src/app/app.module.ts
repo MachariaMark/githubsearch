@@ -13,8 +13,6 @@ import { DateTrackPipe } from './pipes/date-track.pipe';
 import { FormsModule } from '@angular/forms';
 import { HttpClientModule } from '@angular/common/http';
 import { FooterComponent } from './components/footer/footer.component';
-import { NgProgressModule } from '@ngx-progressbar/core';
-import { NgProgressHttpClientModule } from '@ngx-progressbar/http-client';
 
 @NgModule({
   declarations: [
@@ -32,8 +30,6 @@ import { NgProgressHttpClientModule } from '@ngx-progressbar/http-client';
     AppRoutingModule,
     HttpClientModule,
     FormsModule,
-    NgProgressModule.forRoot(),
-    NgProgressHttpClientModule
   ],
   providers: [ProfileService],
   bootstrap: [AppComponent]
