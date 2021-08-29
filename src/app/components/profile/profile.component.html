@@ -30,7 +30,7 @@
                   <p *ngIf="userProfile.bio" class="card-text"><span class="text-muted">Bio:</span> {{ userProfile.bio }}
                   </p>
                   <p class="card-text"><span class="text-muted">Member since:</span>
-                    {{ userProfile.created_at | dateAgo }}</p>
+                    {{ userProfile.created_at | dateTrack }}</p>
                   <p *ngIf="userProfile.location" class="card-text"><i class="fas fa-map-marker-alt"></i>
                     {{ userProfile.location }}</p>
                   <p *ngIf="userProfile.blog" class="card-text"><i class="fas fa-link"></i><a
@@ -79,7 +79,7 @@
                         class="fab fa-github"></i></button>
                   </a>
                   <div class="date">
-                    <small><span class="text-muted">last modified:</span> {{ repo.updated_at | dateAgo }}</small>
+                    <small><span class="text-muted">last modified:</span> {{ repo.updated_at | dateTrack }}</small>
                   </div>
                 </div>
               </div>
